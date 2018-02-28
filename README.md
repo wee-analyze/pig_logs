@@ -11,4 +11,7 @@ Make a directory called "/data" and load log data sample 2018_jan.txt.
 
 Either load script onto harddisk of server that your logged into and execute the script or just copy and paste code into terminal.
 
+pig -f server_script_path      # not HDFS path
+
 results will appear on terminal screen and also be saved in a directory called "data/results".
+
