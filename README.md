@@ -9,8 +9,11 @@ and batch processing.
 The data used for this example is a small log sample and is semi-structured. Even if the sample was very large, terabytes, 
 Hadoop would be able to handle the processing with MapReduce. 
 This script will perform the following:
+
 -filter out all url's that contain "linqtosql"
+
 -retrieve only days with more than 80 visits
+
 -sort the number of visits and then by date if visits are equal
 
 To run this script, make a directory in HDFS called "/data" and load log data sample 2018_jan.txt.
