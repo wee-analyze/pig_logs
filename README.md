@@ -1,5 +1,5 @@
 # pig_logs
-A simple example of using Pig in Hadoop to manipulate log data for ETL
+A simple example of using Pig in Hadoop to manipulate log data for ETL (comments in Swedish)
 
 Programming language: Pig
 
@@ -21,3 +21,5 @@ To run this script, make a directory in HDFS called "/data" and load log data sa
 Either load script onto harddisk of server that your logged into and execute the script or just copy and paste code into terminal.
 
 Results will be saved in a HDFS directory called "data/results".
+
+* The comments in the script are written in Swedish
